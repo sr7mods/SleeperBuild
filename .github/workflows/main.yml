@@ -1,0 +1,35 @@
+name: Unzip Sleeperbuild
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'sleeperbuild.zip'
+  workflow_dispatch:
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Unzip sleeperbuild.zip
+        run: |
+          if [ -f "sleeperbuild.zip" ]; then
+            unzip -o sleeperbuild.zip -d .
+            rm sleeperbuild.zip
+          else
+            echo "sleeperbuild.zip not found!"
+            exit 1
+          fi
+
+      - name: Commit and push extracted files
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Unzip sleeperbuild.zip contents" && git push)
+          
