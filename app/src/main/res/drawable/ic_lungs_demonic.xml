@@ -1,0 +1,220 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="260dp"
+    android:height="220dp"
+    android:viewportWidth="260"
+    android:viewportHeight="220">
+
+    <!-- Ambient Crimson Ember Aura -->
+    <path
+        android:pathData="M 130,110 m -90,0 a 90,75 0 1,0 180,0 a 90,75 0 1,0 -180,0"
+        android:fillAlpha="0.22">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="130"
+                android:centerY="110"
+                android:gradientRadius="100"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#EF4444" />
+                <item android:offset="0.6" android:color="#991B1B" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- TRACHEA (Charred with internal heat) -->
+    <path
+        android:pathData="M 120,8 C 120,8 126,6 130,6 C 134,6 140,8 140,8 L 140,62 C 140,62 135,64 130,64 C 125,64 120,62 120,62 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="120"
+                android:startY="35"
+                android:endX="140"
+                android:endY="35"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#18181B" />
+                <item android:offset="0.4" android:color="#451A03" />
+                <item android:offset="0.7" android:color="#27272A" />
+                <item android:offset="1.0" android:color="#09090B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Charred Tracheal Rings -->
+    <path android:pathData="M 121,14 Q 130,17 139,14" android:strokeColor="#7F1D1D" android:strokeWidth="1.8" android:strokeLineCap="round" />
+    <path android:pathData="M 121,21 Q 130,24 139,21" android:strokeColor="#B91C1C" android:strokeWidth="1.8" android:strokeLineCap="round" />
+    <path android:pathData="M 121,28 Q 130,31 139,28" android:strokeColor="#EA580C" android:strokeWidth="1.8" android:strokeLineCap="round" />
+    <path android:pathData="M 121,35 Q 130,38 139,35" android:strokeColor="#7F1D1D" android:strokeWidth="1.8" android:strokeLineCap="round" />
+    <path android:pathData="M 121,42 Q 130,45 139,42" android:strokeColor="#B91C1C" android:strokeWidth="1.8" android:strokeLineCap="round" />
+    <path android:pathData="M 121,49 Q 130,52 139,49" android:strokeColor="#EA580C" android:strokeWidth="1.8" android:strokeLineCap="round" />
+    <path android:pathData="M 121,56 Q 130,59 139,56" android:strokeColor="#7F1D1D" android:strokeWidth="1.8" android:strokeLineCap="round" />
+
+    <!-- CARINA (Bronchi Bifurcation) -->
+    <path
+        android:pathData="M 124,60 Q 112,68 96,82 L 102,89 Q 118,74 130,66 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="130"
+                android:startY="60"
+                android:endX="96"
+                android:endY="89"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#27272A" />
+                <item android:offset="1.0" android:color="#18181B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M 136,60 Q 148,70 164,84 L 158,91 Q 142,76 130,66 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="130"
+                android:startY="60"
+                android:endX="164"
+                android:endY="91"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#27272A" />
+                <item android:offset="1.0" android:color="#18181B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- RIGHT LUNG (Charred Soot and Magma Core) -->
+    <path
+        android:pathData="M 120,54 C 114,38 98,28 78,34 C 54,42 42,66 36,92 C 30,120 28,152 38,178 C 44,194 62,204 84,204 C 104,204 116,196 122,176 C 126,160 125,125 123,98 C 123,80 122,65 120,54 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="50"
+                android:endX="115"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#27272A" />
+                <item android:offset="0.3" android:color="#1C1917" />
+                <item android:offset="0.7" android:color="#0F0E17" />
+                <item android:offset="1.0" android:color="#09090B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right Lung Inner Magma Fissure Veins -->
+    <path
+        android:pathData="M 75,50 C 60,60 52,80 48,110 C 44,140 48,165 58,180 C 72,190 92,185 104,170 C 112,150 112,120 110,90 C 108,70 95,52 75,50 Z"
+        android:fillAlpha="0.35">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="75"
+                android:centerY="110"
+                android:gradientRadius="60"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#DC2626" />
+                <item android:offset="0.5" android:color="#7F1D1D" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right Lung Glowing Cracked Fissures -->
+    <path
+        android:pathData="M 40,105 C 55,103 80,102 112,112"
+        android:strokeColor="#EF4444"
+        android:strokeAlpha="0.95"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 42,106 C 56,104 81,103 110,113"
+        android:strokeColor="#FDE047"
+        android:strokeAlpha="0.9"
+        android:strokeWidth="1.1"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M 52,70 C 65,100 82,145 110,182"
+        android:strokeColor="#DC2626"
+        android:strokeAlpha="0.9"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 53,71 C 66,101 83,146 109,183"
+        android:strokeColor="#F59E0B"
+        android:strokeAlpha="0.9"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round" />
+
+    <!-- Additional Burning Crack Veins (Right) -->
+    <path android:pathData="M 65,85 L 55,95 L 48,112" android:strokeColor="#F97316" android:strokeWidth="1.4" android:strokeLineCap="round" />
+    <path android:pathData="M 80,130 L 70,145 L 68,165" android:strokeColor="#EA580C" android:strokeWidth="1.4" android:strokeLineCap="round" />
+    <path android:pathData="M 90,150 L 102,165 L 105,178" android:strokeColor="#F97316" android:strokeWidth="1.4" android:strokeLineCap="round" />
+
+    <!-- LEFT LUNG (Charred Soot & Magma Core) -->
+    <path
+        android:pathData="M 140,54 C 146,38 162,28 182,34 C 206,42 218,66 224,92 C 230,120 232,152 222,178 C 216,194 198,204 176,204 C 160,204 150,198 144,184 C 138,168 135,148 142,126 C 147,110 146,95 140,82 C 138,72 138,62 140,54 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="220"
+                android:startY="50"
+                android:endX="145"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#27272A" />
+                <item android:offset="0.3" android:color="#1C1917" />
+                <item android:offset="0.7" android:color="#0F0E17" />
+                <item android:offset="1.0" android:color="#09090B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Left Lung Inner Magma Fissure Glow -->
+    <path
+        android:pathData="M 185,50 C 200,60 208,80 212,110 C 216,140 212,165 202,180 C 188,190 168,185 156,170 C 148,150 148,120 150,90 C 152,70 165,52 185,50 Z"
+        android:fillAlpha="0.35">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="185"
+                android:centerY="110"
+                android:gradientRadius="60"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#DC2626" />
+                <item android:offset="0.5" android:color="#7F1D1D" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Left Lung Glowing Cracked Fissures -->
+    <path
+        android:pathData="M 208,70 C 195,100 178,145 154,186"
+        android:strokeColor="#DC2626"
+        android:strokeAlpha="0.9"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 207,71 C 194,101 177,146 153,187"
+        android:strokeColor="#F59E0B"
+        android:strokeAlpha="0.9"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round" />
+
+    <!-- Additional Burning Crack Veins (Left) -->
+    <path android:pathData="M 195,85 L 205,95 L 212,112" android:strokeColor="#F97316" android:strokeWidth="1.4" android:strokeLineCap="round" />
+    <path android:pathData="M 180,130 L 190,145 L 192,165" android:strokeColor="#EA580C" android:strokeWidth="1.4" android:strokeLineCap="round" />
+    <path android:pathData="M 170,150 L 158,165 L 155,178" android:strokeColor="#F97316" android:strokeWidth="1.4" android:strokeLineCap="round" />
+
+    <!-- CHARRED BRONCHIAL TREE WITH GLOWING CORE -->
+    <path android:pathData="M 98,85 Q 82,90 68,82 Q 58,76 52,65" android:strokeColor="#F87171" android:strokeAlpha="0.8" android:strokeWidth="1.8" android:strokeLineCap="round" />
+    <path android:pathData="M 82,90 Q 75,102 62,115 Q 52,122 45,135" android:strokeColor="#EF4444" android:strokeAlpha="0.75" android:strokeWidth="1.6" android:strokeLineCap="round" />
+    <path android:pathData="M 98,85 Q 92,108 88,128 Q 82,150 78,172" android:strokeColor="#F97316" android:strokeAlpha="0.8" android:strokeWidth="1.8" android:strokeLineCap="round" />
+
+    <path android:pathData="M 162,87 Q 178,92 192,84 Q 202,78 208,67" android:strokeColor="#F87171" android:strokeAlpha="0.8" android:strokeWidth="1.8" android:strokeLineCap="round" />
+    <path android:pathData="M 178,92 Q 185,104 198,117 Q 208,124 215,137" android:strokeColor="#EF4444" android:strokeAlpha="0.75" android:strokeWidth="1.6" android:strokeLineCap="round" />
+    <path android:pathData="M 162,87 Q 168,110 172,130 Q 178,152 182,174" android:strokeColor="#F97316" android:strokeAlpha="0.8" android:strokeWidth="1.8" android:strokeLineCap="round" />
+
+    <!-- Burning Embers Specks -->
+    <path android:pathData="M 54,98 M 54,98 A 1.2,1.2 0 1,1 54,98.1" android:strokeColor="#FDE047" android:strokeWidth="2.5" android:strokeLineCap="round" />
+    <path android:pathData="M 78,142 M 78,142 A 1.2,1.2 0 1,1 78,142.1" android:strokeColor="#F97316" android:strokeWidth="2.5" android:strokeLineCap="round" />
+    <path android:pathData="M 102,172 M 102,172 A 1.2,1.2 0 1,1 102,172.1" android:strokeColor="#FDE047" android:strokeWidth="2.5" android:strokeLineCap="round" />
+    <path android:pathData="M 206,98 M 206,98 A 1.2,1.2 0 1,1 206,98.1" android:strokeColor="#FDE047" android:strokeWidth="2.5" android:strokeLineCap="round" />
+    <path android:pathData="M 182,142 M 182,142 A 1.2,1.2 0 1,1 182,142.1" android:strokeColor="#F97316" android:strokeWidth="2.5" android:strokeLineCap="round" />
+    <path android:pathData="M 158,172 M 158,172 A 1.2,1.2 0 1,1 158,172.1" android:strokeColor="#FDE047" android:strokeWidth="2.5" android:strokeLineCap="round" />
+
+</vector>
