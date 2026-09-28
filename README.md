@@ -12,7 +12,8 @@
   <a href="https://m3.material.io/"><img src="https://img.shields.io/badge/Design-Glassmorphic%20%7C%20Neon-00B0FF?style=for-the-badge&logo=material-design&logoColor=white" alt="UI Style"></a>
   <a href="https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences"><img src="https://img.shields.io/badge/Security-AES256--GCM-FF5722?style=for-the-badge&logo=securityscorecard&logoColor=white" alt="AES256 Encrypted"></a>
   <a href="https://aladhan.com/prayer-times-api"><img src="https://img.shields.io/badge/API-Aladhan%20Precise-00E676?style=for-the-badge&logo=googlemaps&logoColor=black" alt="Aladhan API"></a>
-  <a href="https://t.me/sr7mods"><img src="https://img.shields.io/badge/Dev-SR7%20Mods-9C27B0?style=for-the-badge&logo=telegram&logoColor=white" alt="Developer Handle"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-GPL--3.0-FF1744?style=for-the-badge&logo=gnu&logoColor=white" alt="License GPL 3.0"></a>
+  <a href="https://sr7mods.github.io/about-dev/"><img src="https://img.shields.io/badge/Dev-SR7%20Mods-00E676?style=for-the-badge&logo=github&logoColor=black" alt="Developer Handle"></a>
 </p>
 
 </div>
