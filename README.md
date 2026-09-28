@@ -117,7 +117,6 @@ SleeperBuild/
 │   └── libs.versions.toml
 ├── build.gradle.kts
 ├── settings.gradle.kts
-├── metadata.json
 ├── README.md
 └── LICENSE
 
