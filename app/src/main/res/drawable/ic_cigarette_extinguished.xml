@@ -1,0 +1,112 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="280dp"
+    android:height="50dp"
+    android:viewportWidth="280"
+    android:viewportHeight="50">
+
+    <!-- CORK FILTER (Left Side: X=20 to X=72) -->
+    <path
+        android:pathData="M 22,17 L 72,17 L 72,33 L 22,33 C 20.5,33 19,31.5 19,29 L 19,21 C 19,18.5 20.5,17 22,17 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="17"
+                android:endX="20"
+                android:endY="33"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#D97706" />
+                <item android:offset="0.25" android:color="#F59E0B" />
+                <item android:offset="0.65" android:color="#B45309" />
+                <item android:offset="1.0" android:color="#78350F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Filter Butt Rim -->
+    <path
+        android:pathData="M 19,25 m -2,0 a 2,6 0 1,0 4,0 a 2,6 0 1,0 -4,0"
+        android:fillColor="#78350F"
+        android:fillAlpha="0.8" />
+
+    <!-- Cork Speckles -->
+    <path android:pathData="M 28,21 L 29,21" android:strokeColor="#451A03" android:strokeWidth="1.2" android:strokeLineCap="round" />
+    <path android:pathData="M 36,27 L 37,27" android:strokeColor="#451A03" android:strokeWidth="1.2" android:strokeLineCap="round" />
+    <path android:pathData="M 44,20 L 45,20" android:strokeColor="#451A03" android:strokeWidth="1.2" android:strokeLineCap="round" />
+    <path android:pathData="M 52,28 L 53,28" android:strokeColor="#451A03" android:strokeWidth="1.2" android:strokeLineCap="round" />
+    <path android:pathData="M 62,22 L 63,22" android:strokeColor="#451A03" android:strokeWidth="1.2" android:strokeLineCap="round" />
+
+    <!-- Gold Separation Ring -->
+    <path
+        android:pathData="M 72,17 L 76,17 L 76,33 L 72,33 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="72"
+                android:startY="17"
+                android:endX="72"
+                android:endY="33"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FDE68A" />
+                <item android:offset="0.4" android:color="#D97706" />
+                <item android:offset="1.0" android:color="#78350F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- HALF-SMOKED WHITE PAPER CYLINDER (X=76 to X=152) -->
+    <path
+        android:pathData="M 76,17 L 152,17 L 152,33 L 76,33 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="114"
+                android:startY="17"
+                android:endX="114"
+                android:endY="33"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#CBD5E1" />
+                <item android:offset="0.25" android:color="#F1F5F9" />
+                <item android:offset="0.6" android:color="#E2E8F0" />
+                <item android:offset="0.85" android:color="#CBD5E1" />
+                <item android:offset="1.0" android:color="#94A3B8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Paper Ribbing Rings -->
+    <path android:pathData="M 92,17 L 92,33" android:strokeColor="#E2E8F0" android:strokeWidth="0.8" />
+    <path android:pathData="M 108,17 L 108,33" android:strokeColor="#E2E8F0" android:strokeWidth="0.8" />
+    <path android:pathData="M 124,17 L 124,33" android:strokeColor="#E2E8F0" android:strokeWidth="0.8" />
+    <path android:pathData="M 140,17 L 140,33" android:strokeColor="#E2E8F0" android:strokeWidth="0.8" />
+
+    <!-- CHARRED BURNT RIM (X=150 to X=156) -->
+    <path
+        android:pathData="M 150,17 Q 154,21 152,25 Q 155,29 151,33 L 157,33 Q 160,28 157,25 Q 159,20 156,17 Z"
+        android:fillColor="#18181B" />
+    <path
+        android:pathData="M 152,17 Q 155,22 153,25 Q 156,30 152,33 L 156,33 Q 158,28 156,25 Q 158,20 155,17 Z"
+        android:fillColor="#44403C" />
+
+    <!-- COLD EXTINGUISHED ASH (X=156 to X=172) - No Fire, Dead Ash -->
+    <path
+        android:pathData="M 156,18 C 160,17 167,18 170,22 C 173,24 172,26 169,29 C 165,32 159,32 156,32 Q 158,25 156,18 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="156"
+                android:startY="18"
+                android:endX="172"
+                android:endY="31"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#374151" />
+                <item android:offset="0.4" android:color="#6B7280" />
+                <item android:offset="0.8" android:color="#9CA3AF" />
+                <item android:offset="1.0" android:color="#4B5563" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Dead ash crumbles and cold speckles -->
+    <path android:pathData="M 162,22 L 164,22" android:strokeColor="#D1D5DB" android:strokeWidth="1.2" android:strokeLineCap="round" />
+    <path android:pathData="M 166,26 L 168,26" android:strokeColor="#1F2937" android:strokeWidth="1.0" android:strokeLineCap="round" />
+    <path android:pathData="M 160,27 L 161,27" android:strokeColor="#4B5563" android:strokeWidth="1.2" android:strokeLineCap="round" />
+
+</vector>

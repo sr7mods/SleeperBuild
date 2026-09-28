@@ -1,0 +1,145 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="280dp"
+    android:height="50dp"
+    android:viewportWidth="280"
+    android:viewportHeight="50">
+
+    <!-- CORK FILTER (Left Side: X=20 to X=75) -->
+    <!-- Cork filter base with cylindrical shading -->
+    <path
+        android:pathData="M 22,17 L 72,17 L 72,33 L 22,33 C 20.5,33 19,31.5 19,29 L 19,21 C 19,18.5 20.5,17 22,17 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="17"
+                android:endX="20"
+                android:endY="33"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#F59E0B" />
+                <item android:offset="0.25" android:color="#FBBF24" />
+                <item android:offset="0.65" android:color="#D97706" />
+                <item android:offset="1.0" android:color="#B45309" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Filter Left Butt Rim -->
+    <path
+        android:pathData="M 19,25 m -2,0 a 2,6 0 1,0 4,0 a 2,6 0 1,0 -4,0"
+        android:fillColor="#92400E"
+        android:fillAlpha="0.7" />
+
+    <!-- Cork Speckle Texture Marks -->
+    <path android:pathData="M 28,21 L 29,21" android:strokeColor="#78350F" android:strokeWidth="1.2" android:strokeLineCap="round" />
+    <path android:pathData="M 36,27 L 37,27" android:strokeColor="#78350F" android:strokeWidth="1.2" android:strokeLineCap="round" />
+    <path android:pathData="M 44,20 L 45,20" android:strokeColor="#78350F" android:strokeWidth="1.2" android:strokeLineCap="round" />
+    <path android:pathData="M 52,28 L 53,28" android:strokeColor="#78350F" android:strokeWidth="1.2" android:strokeLineCap="round" />
+    <path android:pathData="M 60,22 L 61,22" android:strokeColor="#78350F" android:strokeWidth="1.2" android:strokeLineCap="round" />
+    <path android:pathData="M 66,26 L 67,26" android:strokeColor="#78350F" android:strokeWidth="1.2" android:strokeLineCap="round" />
+
+    <!-- Gold Separation Ring / Seam Band -->
+    <path
+        android:pathData="M 72,17 L 76,17 L 76,33 L 72,33 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="72"
+                android:startY="17"
+                android:endX="72"
+                android:endY="33"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FDE68A" />
+                <item android:offset="0.4" android:color="#F59E0B" />
+                <item android:offset="1.0" android:color="#92400E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- CIGARETTE PAPER TUBE (X=76 to X=228) -->
+    <!-- Cylindrical 3D Shaded White Paper -->
+    <path
+        android:pathData="M 76,17 L 228,17 L 228,33 L 76,33 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="150"
+                android:startY="17"
+                android:endX="150"
+                android:endY="33"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E2E8F0" />
+                <item android:offset="0.25" android:color="#FFFFFF" />
+                <item android:offset="0.6" android:color="#F8FAFC" />
+                <item android:offset="0.85" android:color="#E2E8F0" />
+                <item android:offset="1.0" android:color="#CBD5E1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle Rolling Paper Rings / Ribbing lines -->
+    <path android:pathData="M 92,17 L 92,33" android:strokeColor="#E2E8F0" android:strokeWidth="0.8" />
+    <path android:pathData="M 108,17 L 108,33" android:strokeColor="#E2E8F0" android:strokeWidth="0.8" />
+    <path android:pathData="M 124,17 L 124,33" android:strokeColor="#E2E8F0" android:strokeWidth="0.8" />
+    <path android:pathData="M 140,17 L 140,33" android:strokeColor="#E2E8F0" android:strokeWidth="0.8" />
+    <path android:pathData="M 156,17 L 156,33" android:strokeColor="#E2E8F0" android:strokeWidth="0.8" />
+    <path android:pathData="M 172,17 L 172,33" android:strokeColor="#E2E8F0" android:strokeWidth="0.8" />
+    <path android:pathData="M 188,17 L 188,33" android:strokeColor="#E2E8F0" android:strokeWidth="0.8" />
+    <path android:pathData="M 204,17 L 204,33" android:strokeColor="#E2E8F0" android:strokeWidth="0.8" />
+    <path android:pathData="M 220,17 L 220,33" android:strokeColor="#E2E8F0" android:strokeWidth="0.8" />
+
+    <!-- CHARRED BURNT EDGE (X=226 to X=232) -->
+    <!-- Irregular charred brown/black paper ring -->
+    <path
+        android:pathData="M 226,17 Q 230,21 228,25 Q 231,29 227,33 L 233,33 Q 236,28 233,25 Q 235,20 232,17 Z"
+        android:fillColor="#18181B" />
+    <path
+        android:pathData="M 228,17 Q 231,22 229,25 Q 232,30 228,33 L 232,33 Q 234,28 232,25 Q 234,20 231,17 Z"
+        android:fillColor="#78350F" />
+
+    <!-- BURNING INCANDESCENT EMBER / CHERRY (X=232 to X=244) -->
+    <!-- Fiery ember core -->
+    <path
+        android:pathData="M 231,18 Q 240,17 244,22 Q 246,25 244,28 Q 239,33 231,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="236"
+                android:centerY="25"
+                android:gradientRadius="12"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#FEF08A" />
+                <item android:offset="0.3" android:color="#F59E0B" />
+                <item android:offset="0.7" android:color="#DC2626" />
+                <item android:offset="1.0" android:color="#7F1D1D" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Hot White Combustion Hotspot -->
+    <path
+        android:pathData="M 235,23 Q 239,22 240,25 Q 239,27 235,26 Z"
+        android:fillColor="#FFFBEB" />
+
+    <!-- NATURAL GREY ASH CAP (X=242 to X=258) -->
+    <!-- Natural flaky cigarette ash at the tip -->
+    <path
+        android:pathData="M 242,19 C 246,18 252,19 255,22 C 258,24 257,26 255,28 C 251,31 245,31 242,31 Q 245,25 242,19 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="242"
+                android:startY="19"
+                android:endX="258"
+                android:endY="30"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#4B5563" />
+                <item android:offset="0.4" android:color="#9CA3AF" />
+                <item android:offset="0.8" android:color="#D1D5DB" />
+                <item android:offset="1.0" android:color="#6B7280" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Ash flake speckles -->
+    <path android:pathData="M 248,22 L 250,22" android:strokeColor="#F3F4F6" android:strokeWidth="1.2" android:strokeLineCap="round" />
+    <path android:pathData="M 252,26 L 254,26" android:strokeColor="#1F2937" android:strokeWidth="1.0" android:strokeLineCap="round" />
+    <path android:pathData="M 246,27 L 247,27" android:strokeColor="#374151" android:strokeWidth="1.2" android:strokeLineCap="round" />
+
+</vector>
